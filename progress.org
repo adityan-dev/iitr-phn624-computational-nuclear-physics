@@ -1,0 +1,56 @@
+#+title: Progress
+
+* SSH
+** Initial Message
+
+#+begin_src
+Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.15.0-113-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+1 device has a firmware upgrade available.
+Run `fwupdmgr get-upgrades` for more information.
+
+
+150 updates can be applied immediately.
+1 of these updates is a standard security update.
+To see these additional updates run: apt list --upgradable
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+New release '22.04.5 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Your Hardware Enablement Stack (HWE) is supported until April 2025.
+System restart required
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+------------------------------------------------------------
+command to link python (to be run one-time only)
+/opt/anaconda3/bin/conda init
+-------------------------------------------------------------
+command to link intel compilers (to be run one-time only)
+source /opt/intel/oneapi/setvars.sh
+-------------------------------------------------------------
+-------------------------------------------------------------
+command to link python (to be run one-time only)
+/opt/anaconda3/bin/conda init
+-------------------------------------------------------------
+command to link intel compilers (to be run one-time only)
+source /opt/intel/oneapi/setvars.sh
+#+end_src
+
+** Login
+
+#+begin_src shell
+ssh -X adityan_s@10.14.0.57
+#+end_src
