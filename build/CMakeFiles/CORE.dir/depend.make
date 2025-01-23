@@ -36,6 +36,7 @@ CMakeFiles/CORE.dir/src/unit-1/harmonic-oscillator.F90.o.provides.build:
 	$(CMAKE_COMMAND) -E touch CMakeFiles/CORE.dir/src/unit-1/harmonic-oscillator.F90.o.provides.build
 CMakeFiles/CORE.dir/build: CMakeFiles/CORE.dir/src/unit-1/harmonic-oscillator.F90.o.provides.build
 CMakeFiles/CORE.dir/src/unit-1/polynomials.F90.o: CMakeFiles/CORE.dir/m_assert.mod.stamp
+CMakeFiles/CORE.dir/src/unit-1/polynomials.F90.o: CMakeFiles/CORE.dir/m_factorial.mod.stamp
 CMakeFiles/CORE.dir/src/unit-1/polynomials.F90.o: CMakeFiles/CORE.dir/m_kinds.mod.stamp
 CMakeFiles/CORE.dir/src/unit-1/polynomials.F90.o.provides.build: CMakeFiles/CORE.dir/m_polynomials.mod.stamp
 CMakeFiles/CORE.dir/m_polynomials.mod.stamp: CMakeFiles/CORE.dir/src/unit-1/polynomials.F90.o

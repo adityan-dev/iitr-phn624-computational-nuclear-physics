@@ -9,6 +9,7 @@
 /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out.dir
 /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out.dir
 /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir
-/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir
+/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir
+/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir
 /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/edit_cache.dir
 /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/rebuild_cache.dir

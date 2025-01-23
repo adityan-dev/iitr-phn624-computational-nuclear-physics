@@ -261,17 +261,30 @@ _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_
 .PHONY : _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out/fast
 
 #=============================================================================
-# Target rules for targets named _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out
+# Target rules for targets named _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out
 
 # Build rule for target.
-_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out
-.PHONY : _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out
+_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out
+.PHONY : _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out
 
 # fast build rule for target.
-_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/build
-.PHONY : _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out/fast
+_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/build
+.PHONY : _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out/fast
+
+#=============================================================================
+# Target rules for targets named _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out
+
+# Build rule for target.
+_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out
+.PHONY : _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out
+
+# fast build rule for target.
+_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/build
+.PHONY : _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out/fast
 
 basic/tutorial-1-part-A/1.1-factorial/main.o: basic/tutorial-1-part-A/1.1-factorial/main.F90.o
 .PHONY : basic/tutorial-1-part-A/1.1-factorial/main.o
@@ -513,29 +526,53 @@ basic/tutorial-1-part-B/3-harmonic-oscillator-matrix/main.F90.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/basic/tutorial-1-part-B/3-harmonic-oscillator-matrix/main.F90.s
 .PHONY : basic/tutorial-1-part-B/3-harmonic-oscillator-matrix/main.F90.s
 
-basic/tutorial-1-part-B/4-legendre-polynomial/main.o: basic/tutorial-1-part-B/4-legendre-polynomial/main.F90.o
-.PHONY : basic/tutorial-1-part-B/4-legendre-polynomial/main.o
+basic/tutorial-1-part-B/4.1-legendre-polynomial/main.o: basic/tutorial-1-part-B/4.1-legendre-polynomial/main.F90.o
+.PHONY : basic/tutorial-1-part-B/4.1-legendre-polynomial/main.o
 
 # target to build an object file
-basic/tutorial-1-part-B/4-legendre-polynomial/main.F90.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/basic/tutorial-1-part-B/4-legendre-polynomial/main.F90.o
-.PHONY : basic/tutorial-1-part-B/4-legendre-polynomial/main.F90.o
+basic/tutorial-1-part-B/4.1-legendre-polynomial/main.F90.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/basic/tutorial-1-part-B/4.1-legendre-polynomial/main.F90.o
+.PHONY : basic/tutorial-1-part-B/4.1-legendre-polynomial/main.F90.o
 
-basic/tutorial-1-part-B/4-legendre-polynomial/main.i: basic/tutorial-1-part-B/4-legendre-polynomial/main.F90.i
-.PHONY : basic/tutorial-1-part-B/4-legendre-polynomial/main.i
+basic/tutorial-1-part-B/4.1-legendre-polynomial/main.i: basic/tutorial-1-part-B/4.1-legendre-polynomial/main.F90.i
+.PHONY : basic/tutorial-1-part-B/4.1-legendre-polynomial/main.i
 
 # target to preprocess a source file
-basic/tutorial-1-part-B/4-legendre-polynomial/main.F90.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/basic/tutorial-1-part-B/4-legendre-polynomial/main.F90.i
-.PHONY : basic/tutorial-1-part-B/4-legendre-polynomial/main.F90.i
+basic/tutorial-1-part-B/4.1-legendre-polynomial/main.F90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/basic/tutorial-1-part-B/4.1-legendre-polynomial/main.F90.i
+.PHONY : basic/tutorial-1-part-B/4.1-legendre-polynomial/main.F90.i
 
-basic/tutorial-1-part-B/4-legendre-polynomial/main.s: basic/tutorial-1-part-B/4-legendre-polynomial/main.F90.s
-.PHONY : basic/tutorial-1-part-B/4-legendre-polynomial/main.s
+basic/tutorial-1-part-B/4.1-legendre-polynomial/main.s: basic/tutorial-1-part-B/4.1-legendre-polynomial/main.F90.s
+.PHONY : basic/tutorial-1-part-B/4.1-legendre-polynomial/main.s
 
 # target to generate assembly for a file
-basic/tutorial-1-part-B/4-legendre-polynomial/main.F90.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/basic/tutorial-1-part-B/4-legendre-polynomial/main.F90.s
-.PHONY : basic/tutorial-1-part-B/4-legendre-polynomial/main.F90.s
+basic/tutorial-1-part-B/4.1-legendre-polynomial/main.F90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/basic/tutorial-1-part-B/4.1-legendre-polynomial/main.F90.s
+.PHONY : basic/tutorial-1-part-B/4.1-legendre-polynomial/main.F90.s
+
+basic/tutorial-1-part-B/4.2-associated-legendre-polynomial/main.o: basic/tutorial-1-part-B/4.2-associated-legendre-polynomial/main.F90.o
+.PHONY : basic/tutorial-1-part-B/4.2-associated-legendre-polynomial/main.o
+
+# target to build an object file
+basic/tutorial-1-part-B/4.2-associated-legendre-polynomial/main.F90.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/basic/tutorial-1-part-B/4.2-associated-legendre-polynomial/main.F90.o
+.PHONY : basic/tutorial-1-part-B/4.2-associated-legendre-polynomial/main.F90.o
+
+basic/tutorial-1-part-B/4.2-associated-legendre-polynomial/main.i: basic/tutorial-1-part-B/4.2-associated-legendre-polynomial/main.F90.i
+.PHONY : basic/tutorial-1-part-B/4.2-associated-legendre-polynomial/main.i
+
+# target to preprocess a source file
+basic/tutorial-1-part-B/4.2-associated-legendre-polynomial/main.F90.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/basic/tutorial-1-part-B/4.2-associated-legendre-polynomial/main.F90.i
+.PHONY : basic/tutorial-1-part-B/4.2-associated-legendre-polynomial/main.F90.i
+
+basic/tutorial-1-part-B/4.2-associated-legendre-polynomial/main.s: basic/tutorial-1-part-B/4.2-associated-legendre-polynomial/main.F90.s
+.PHONY : basic/tutorial-1-part-B/4.2-associated-legendre-polynomial/main.s
+
+# target to generate assembly for a file
+basic/tutorial-1-part-B/4.2-associated-legendre-polynomial/main.F90.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/basic/tutorial-1-part-B/4.2-associated-legendre-polynomial/main.F90.s
+.PHONY : basic/tutorial-1-part-B/4.2-associated-legendre-polynomial/main.F90.s
 
 src/unit-0/double-factorial.o: src/unit-0/double-factorial.F90.o
 .PHONY : src/unit-0/double-factorial.o
@@ -748,7 +785,8 @@ help:
 	@echo "... _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out"
 	@echo "... _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out"
 	@echo "... _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out"
-	@echo "... _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out"
+	@echo "... _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out"
+	@echo "... _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out"
 	@echo "... basic/tutorial-1-part-A/1.1-factorial/main.o"
 	@echo "... basic/tutorial-1-part-A/1.1-factorial/main.i"
 	@echo "... basic/tutorial-1-part-A/1.1-factorial/main.s"
@@ -779,9 +817,12 @@ help:
 	@echo "... basic/tutorial-1-part-B/3-harmonic-oscillator-matrix/main.o"
 	@echo "... basic/tutorial-1-part-B/3-harmonic-oscillator-matrix/main.i"
 	@echo "... basic/tutorial-1-part-B/3-harmonic-oscillator-matrix/main.s"
-	@echo "... basic/tutorial-1-part-B/4-legendre-polynomial/main.o"
-	@echo "... basic/tutorial-1-part-B/4-legendre-polynomial/main.i"
-	@echo "... basic/tutorial-1-part-B/4-legendre-polynomial/main.s"
+	@echo "... basic/tutorial-1-part-B/4.1-legendre-polynomial/main.o"
+	@echo "... basic/tutorial-1-part-B/4.1-legendre-polynomial/main.i"
+	@echo "... basic/tutorial-1-part-B/4.1-legendre-polynomial/main.s"
+	@echo "... basic/tutorial-1-part-B/4.2-associated-legendre-polynomial/main.o"
+	@echo "... basic/tutorial-1-part-B/4.2-associated-legendre-polynomial/main.i"
+	@echo "... basic/tutorial-1-part-B/4.2-associated-legendre-polynomial/main.s"
 	@echo "... src/unit-0/double-factorial.o"
 	@echo "... src/unit-0/double-factorial.i"
 	@echo "... src/unit-0/double-factorial.s"

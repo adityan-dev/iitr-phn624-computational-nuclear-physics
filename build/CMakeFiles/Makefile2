@@ -74,7 +74,8 @@ all: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-
 all: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out.dir/all
 all: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out.dir/all
 all: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/all
-all: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/all
+all: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/all
+all: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -89,7 +90,8 @@ codegen: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computatio
 codegen: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out.dir/codegen
 codegen: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out.dir/codegen
 codegen: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/codegen
-codegen: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/codegen
+codegen: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/codegen
+codegen: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -108,7 +110,8 @@ clean: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computationa
 clean: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out.dir/clean
 clean: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out.dir/clean
 clean: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/clean
-clean: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/clean
+clean: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/clean
+clean: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -464,36 +467,68 @@ CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nucle
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir
+# Target rules for target CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir
 
 # All Build rule for target.
-CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/all: CMakeFiles/CORE.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=30,31 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out"
-.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/all
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/all: CMakeFiles/CORE.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=30,31 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out"
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/rule: cmake_check_build_system
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 0
-.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/rule
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/rule
 
 # Convenience name for target.
-_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/rule
-.PHONY : _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out
+_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/rule
+.PHONY : _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out
 
 # codegen rule for target.
-CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=30,31 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out"
-.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/codegen
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=30,31 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out"
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/codegen
 
 # clean rule for target.
-CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/clean
-.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4-legendre-polynomial_out.dir/clean
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/clean
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir
+
+# All Build rule for target.
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/all: CMakeFiles/CORE.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=32,33 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out"
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 11
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 0
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/rule
+
+# Convenience name for target.
+_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/rule
+.PHONY : _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out
+
+# codegen rule for target.
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=32,33 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out"
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/codegen
+
+# clean rule for target.
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/clean
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
