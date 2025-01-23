@@ -1,56 +1,31 @@
-#+title: Progress
+#+title: PHN 624 Computational Nuclear Physics
+#+AUTHOR: Adityan S
+
+#+LATEX_CLASS_OPTIONS: [a4paper,11pt,twoside]
+#+LATEX_HEADER: \usepackage{booktabs}
+#+LATEX_HEADER: \usepackage{xcolor}
+#+LATEX_HEADER: \usepackage{colortbl}
+#+LATEX_HEADER: \usepackage{siunitx}
+#+LATEX_HEADER: \usepackage{tabu}
+#+LATEX_HEADER: \usepackage{etoolbox}
+#+LATEX_HEADER: \usepackage{pdflscape}
+#+LATEX_HEADER: \usepackage{pgfplots}
+#+LATEX_HEADER: \usepackage{tikz}
+#+LATEX_HEADER: \usepackage{nopageno}
+#+LATEX_HEADER: \usepackage{amssymb}
+#+LATEX_HEADER:\usepackage{algorithm}
+#+LATEX_HEADER:\usepackage{algpseudocode}
+#+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
+
+#+options: tex:t toc:t date:nil
+#+startup: latexpreview
+#+startup: inlineimages
 
 * SSH
-** Initial Message
-
-#+begin_src
-Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.15.0-113-generic x86_64)
-
- * Documentation:  https://help.ubuntu.com
- * Management:     https://landscape.canonical.com
- * Support:        https://ubuntu.com/advantage
-
-1 device has a firmware upgrade available.
-Run `fwupdmgr get-upgrades` for more information.
-
-
-150 updates can be applied immediately.
-1 of these updates is a standard security update.
-To see these additional updates run: apt list --upgradable
-
-
-The list of available updates is more than a week old.
-To check for new updates run: sudo apt update
-New release '22.04.5 LTS' available.
-Run 'do-release-upgrade' to upgrade to it.
-
-Your Hardware Enablement Stack (HWE) is supported until April 2025.
-System restart required
-
-The programs included with the Ubuntu system are free software;
-the exact distribution terms for each program are described in the
-individual files in /usr/share/doc/*/copyright.
-
-Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
-applicable law.
-
-------------------------------------------------------------
-command to link python (to be run one-time only)
-/opt/anaconda3/bin/conda init
--------------------------------------------------------------
-command to link intel compilers (to be run one-time only)
-source /opt/intel/oneapi/setvars.sh
--------------------------------------------------------------
--------------------------------------------------------------
-command to link python (to be run one-time only)
-/opt/anaconda3/bin/conda init
--------------------------------------------------------------
-command to link intel compilers (to be run one-time only)
-source /opt/intel/oneapi/setvars.sh
-#+end_src
-
 ** Login
 
 #+begin_src shell
 ssh -X adityan_s@10.14.0.57
 #+end_src
+
+#+RESULTS:

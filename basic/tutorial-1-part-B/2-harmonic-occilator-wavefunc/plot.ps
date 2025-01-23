@@ -1,0 +1,6 @@
+set title "Harmonic Oscilator Wave Function"
+set xlabel 'x'
+set ylabel 'Psi(n,x)'
+set yrange [-1:1]
+set key outside
+plot for [col=2:11] "howf.dat" u 1:col with lines title sprintf("Psi(%d,x)", col - 2)

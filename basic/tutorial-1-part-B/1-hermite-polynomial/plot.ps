@@ -1,0 +1,6 @@
+set title "Hermite Polynomials"
+set xlabel 'x'
+set ylabel 'H(n,x)'
+set yrange [-50:50]
+set key outside
+plot for [col=2:7] "hermite.dat" u 1:col with lines title sprintf("H(%d,x)", col - 2)

@@ -1,0 +1,7 @@
+#+title: Answer
+
+
+* Nuclear Shell Model
+
+** References
+- https://phys.libretexts.org/Bookshelves/Nuclear_and_Particle_Physics/Nuclear_and_Particle_Physics_(Walet)/04:_Nuclear_Models/4.01:_Nuclear_Shell_Model
