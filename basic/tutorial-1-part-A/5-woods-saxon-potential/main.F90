@@ -28,7 +28,7 @@ contains
 
   real(wp) elemental function woods_saxon_potential (input_r)
     real(wp), intent(in) :: input_r
-    woods_saxon_potential = V0 / (1.0_wp + exp((input_r - R) / a))
+    woods_saxon_potential = V0 / (1.0_wp + exp((abs(input_r) - R) / a))
   end function woods_saxon_potential
 
 end program main
