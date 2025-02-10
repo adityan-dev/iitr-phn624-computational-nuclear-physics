@@ -9,6 +9,8 @@ CMakeFiles/CORE.dir/src/unit-0/integratioan-1D.F90.o
  /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/src/unit-0/integratioan-1D.F90
 CMakeFiles/CORE.dir/src/unit-1/harmonic-oscillator.F90.o
  /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/src/unit-1/harmonic-oscillator.F90
+CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.o
+ /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/src/unit-1/hydrogen-atom.F90
 CMakeFiles/CORE.dir/src/unit-1/polynomials.F90.o
  /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/src/unit-1/polynomials.F90
 CMakeFiles/CORE.dir/src/utils/assert.F90.o

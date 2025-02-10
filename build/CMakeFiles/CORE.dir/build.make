@@ -124,9 +124,22 @@ CMakeFiles/CORE.dir/src/unit-1/harmonic-oscillator.F90.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/CORE.dir/src/unit-1/harmonic-oscillator.F90.s"
 	/usr/bin/f95 $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/src/unit-1/harmonic-oscillator.F90 -o CMakeFiles/CORE.dir/src/unit-1/harmonic-oscillator.F90.s
 
+CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.o: CMakeFiles/CORE.dir/flags.make
+CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.o: /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/src/unit-1/hydrogen-atom.F90
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building Fortran object CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.o"
+	/usr/bin/f95 $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/src/unit-1/hydrogen-atom.F90 -o CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.o
+
+CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing Fortran source to CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.i"
+	/usr/bin/f95 $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -E /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/src/unit-1/hydrogen-atom.F90 > CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.i
+
+CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling Fortran source to assembly CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.s"
+	/usr/bin/f95 $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -S /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/src/unit-1/hydrogen-atom.F90 -o CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.s
+
 CMakeFiles/CORE.dir/src/unit-1/polynomials.F90.o: CMakeFiles/CORE.dir/flags.make
 CMakeFiles/CORE.dir/src/unit-1/polynomials.F90.o: /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/src/unit-1/polynomials.F90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building Fortran object CMakeFiles/CORE.dir/src/unit-1/polynomials.F90.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building Fortran object CMakeFiles/CORE.dir/src/unit-1/polynomials.F90.o"
 	/usr/bin/f95 $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/src/unit-1/polynomials.F90 -o CMakeFiles/CORE.dir/src/unit-1/polynomials.F90.o
 
 CMakeFiles/CORE.dir/src/unit-1/polynomials.F90.i: cmake_force
@@ -139,7 +152,7 @@ CMakeFiles/CORE.dir/src/unit-1/polynomials.F90.s: cmake_force
 
 CMakeFiles/CORE.dir/src/utils/assert.F90.o: CMakeFiles/CORE.dir/flags.make
 CMakeFiles/CORE.dir/src/utils/assert.F90.o: /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/src/utils/assert.F90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building Fortran object CMakeFiles/CORE.dir/src/utils/assert.F90.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building Fortran object CMakeFiles/CORE.dir/src/utils/assert.F90.o"
 	/usr/bin/f95 $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/src/utils/assert.F90 -o CMakeFiles/CORE.dir/src/utils/assert.F90.o
 
 CMakeFiles/CORE.dir/src/utils/assert.F90.i: cmake_force
@@ -152,7 +165,7 @@ CMakeFiles/CORE.dir/src/utils/assert.F90.s: cmake_force
 
 CMakeFiles/CORE.dir/src/utils/constants.F90.o: CMakeFiles/CORE.dir/flags.make
 CMakeFiles/CORE.dir/src/utils/constants.F90.o: /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/src/utils/constants.F90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building Fortran object CMakeFiles/CORE.dir/src/utils/constants.F90.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building Fortran object CMakeFiles/CORE.dir/src/utils/constants.F90.o"
 	/usr/bin/f95 $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/src/utils/constants.F90 -o CMakeFiles/CORE.dir/src/utils/constants.F90.o
 
 CMakeFiles/CORE.dir/src/utils/constants.F90.i: cmake_force
@@ -165,7 +178,7 @@ CMakeFiles/CORE.dir/src/utils/constants.F90.s: cmake_force
 
 CMakeFiles/CORE.dir/src/utils/kinds.F90.o: CMakeFiles/CORE.dir/flags.make
 CMakeFiles/CORE.dir/src/utils/kinds.F90.o: /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/src/utils/kinds.F90
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building Fortran object CMakeFiles/CORE.dir/src/utils/kinds.F90.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building Fortran object CMakeFiles/CORE.dir/src/utils/kinds.F90.o"
 	/usr/bin/f95 $(Fortran_DEFINES) $(Fortran_INCLUDES) $(Fortran_FLAGS) -c /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/src/utils/kinds.F90 -o CMakeFiles/CORE.dir/src/utils/kinds.F90.o
 
 CMakeFiles/CORE.dir/src/utils/kinds.F90.i: cmake_force
@@ -182,6 +195,7 @@ CORE_OBJECTS = \
 "CMakeFiles/CORE.dir/src/unit-0/factorial.F90.o" \
 "CMakeFiles/CORE.dir/src/unit-0/integratioan-1D.F90.o" \
 "CMakeFiles/CORE.dir/src/unit-1/harmonic-oscillator.F90.o" \
+"CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.o" \
 "CMakeFiles/CORE.dir/src/unit-1/polynomials.F90.o" \
 "CMakeFiles/CORE.dir/src/utils/assert.F90.o" \
 "CMakeFiles/CORE.dir/src/utils/constants.F90.o" \
@@ -194,13 +208,14 @@ libCORE.a: CMakeFiles/CORE.dir/src/unit-0/double-factorial.F90.o
 libCORE.a: CMakeFiles/CORE.dir/src/unit-0/factorial.F90.o
 libCORE.a: CMakeFiles/CORE.dir/src/unit-0/integratioan-1D.F90.o
 libCORE.a: CMakeFiles/CORE.dir/src/unit-1/harmonic-oscillator.F90.o
+libCORE.a: CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.o
 libCORE.a: CMakeFiles/CORE.dir/src/unit-1/polynomials.F90.o
 libCORE.a: CMakeFiles/CORE.dir/src/utils/assert.F90.o
 libCORE.a: CMakeFiles/CORE.dir/src/utils/constants.F90.o
 libCORE.a: CMakeFiles/CORE.dir/src/utils/kinds.F90.o
 libCORE.a: CMakeFiles/CORE.dir/build.make
 libCORE.a: CMakeFiles/CORE.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking Fortran static library libCORE.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking Fortran static library libCORE.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/CORE.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CORE.dir/link.txt --verbose=$(VERBOSE)
 

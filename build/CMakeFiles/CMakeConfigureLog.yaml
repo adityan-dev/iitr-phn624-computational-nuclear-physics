@@ -432,3 +432,404 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1302 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:8 (find_package)"
+    description: "The MPI test test_mpi for Fortran in mode F77_HEADER"
+    directories:
+      source: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-1MOop3"
+      binary: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-1MOop3"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv"
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+    buildResult:
+      variable: "MPI_RESULT_Fortran_test_mpi_F77_HEADER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-1MOop3'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_da32e/fast
+        make[1]: Entering directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-1MOop3'
+        /usr/bin/make  -f CMakeFiles/cmTC_da32e.dir/build.make CMakeFiles/cmTC_da32e.dir/build
+        make[2]: Entering directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-1MOop3'
+        Building Fortran object CMakeFiles/cmTC_da32e.dir/test_mpi.f90.o
+        /usr/bin/f95  -I/usr/include -I/usr/lib -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  -c /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-1MOop3/test_mpi.f90 -o CMakeFiles/cmTC_da32e.dir/test_mpi.f90.o
+        Linking Fortran executable cmTC_da32e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da32e.dir/link.txt --verbose=1
+        /usr/bin/f95 -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags  -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  CMakeFiles/cmTC_da32e.dir/test_mpi.f90.o -o cmTC_da32e  /usr/lib/libmpi_usempif08.so /usr/lib/libmpi_usempi_ignore_tkr.so /usr/lib/libmpi_mpifh.so /usr/lib/libmpi.so
+        make[2]: Leaving directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-1MOop3'
+        make[1]: Leaving directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-1MOop3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1303 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:8 (find_package)"
+    description: "The MPI test test_mpi for Fortran in mode F90_MODULE"
+    directories:
+      source: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-v3ypBt"
+      binary: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-v3ypBt"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv"
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+    buildResult:
+      variable: "MPI_RESULT_Fortran_test_mpi_F90_MODULE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-v3ypBt'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bf026/fast
+        make[1]: Entering directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-v3ypBt'
+        /usr/bin/make  -f CMakeFiles/cmTC_bf026.dir/build.make CMakeFiles/cmTC_bf026.dir/build
+        make[2]: Entering directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-v3ypBt'
+        Building Fortran object CMakeFiles/cmTC_bf026.dir/test_mpi.f90.o
+        /usr/bin/f95  -I/usr/include -I/usr/lib -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  -c /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-v3ypBt/test_mpi.f90 -o CMakeFiles/cmTC_bf026.dir/test_mpi.f90.o
+        Linking Fortran executable cmTC_bf026
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf026.dir/link.txt --verbose=1
+        /usr/bin/f95 -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags  -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  CMakeFiles/cmTC_bf026.dir/test_mpi.f90.o -o cmTC_bf026  /usr/lib/libmpi_usempif08.so /usr/lib/libmpi_usempi_ignore_tkr.so /usr/lib/libmpi_mpifh.so /usr/lib/libmpi.so
+        make[2]: Leaving directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-v3ypBt'
+        make[1]: Leaving directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-v3ypBt'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1304 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:8 (find_package)"
+    description: "The MPI test test_mpi for Fortran in mode F08_MODULE"
+    directories:
+      source: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-iONNDR"
+      binary: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-iONNDR"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv"
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+    buildResult:
+      variable: "MPI_RESULT_Fortran_test_mpi_F08_MODULE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-iONNDR'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7bb79/fast
+        make[1]: Entering directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-iONNDR'
+        /usr/bin/make  -f CMakeFiles/cmTC_7bb79.dir/build.make CMakeFiles/cmTC_7bb79.dir/build
+        make[2]: Entering directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-iONNDR'
+        Building Fortran object CMakeFiles/cmTC_7bb79.dir/test_mpi.f90.o
+        /usr/bin/f95  -I/usr/include -I/usr/lib -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  -c /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-iONNDR/test_mpi.f90 -o CMakeFiles/cmTC_7bb79.dir/test_mpi.f90.o
+        Linking Fortran executable cmTC_7bb79
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bb79.dir/link.txt --verbose=1
+        /usr/bin/f95 -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags  -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  CMakeFiles/cmTC_7bb79.dir/test_mpi.f90.o -o cmTC_7bb79  /usr/lib/libmpi_usempif08.so /usr/lib/libmpi_usempi_ignore_tkr.so /usr/lib/libmpi_mpifh.so /usr/lib/libmpi.so
+        make[2]: Leaving directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-iONNDR'
+        make[1]: Leaving directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-iONNDR'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1712 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:8 (find_package)"
+    description: "The MPI test mpiver for Fortran in mode F08_MODULE"
+    directories:
+      source: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-ShuOGC"
+      binary: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-ShuOGC"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv"
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+    buildResult:
+      variable: "MPI_RESULT_Fortran_mpiver_F08_MODULE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-ShuOGC'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_893cf/fast
+        make[1]: Entering directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-ShuOGC'
+        /usr/bin/make  -f CMakeFiles/cmTC_893cf.dir/build.make CMakeFiles/cmTC_893cf.dir/build
+        make[2]: Entering directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-ShuOGC'
+        Building Fortran object CMakeFiles/cmTC_893cf.dir/mpiver.f90.o
+        /usr/bin/f95  -I/usr/include -I/usr/lib -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  -c /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-ShuOGC/mpiver.f90 -o CMakeFiles/cmTC_893cf.dir/mpiver.f90.o
+        Linking Fortran executable cmTC_893cf
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_893cf.dir/link.txt --verbose=1
+        /usr/bin/f95 -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags  -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  CMakeFiles/cmTC_893cf.dir/mpiver.f90.o -o cmTC_893cf  /usr/lib/libmpi_usempif08.so /usr/lib/libmpi_usempi_ignore_tkr.so /usr/lib/libmpi_mpifh.so /usr/lib/libmpi.so
+        make[2]: Leaving directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-ShuOGC'
+        make[1]: Leaving directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-ShuOGC'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1302 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:8 (find_package)"
+    description: "The MPI test test_mpi for Fortran in mode F77_HEADER"
+    directories:
+      source: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-7Ewrsr"
+      binary: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-7Ewrsr"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv"
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+    buildResult:
+      variable: "MPI_RESULT_Fortran_test_mpi_F77_HEADER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-7Ewrsr'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fecb0/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_fecb0.dir/build.make CMakeFiles/cmTC_fecb0.dir/build
+        make[1]: Entering directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-7Ewrsr'
+        Building Fortran object CMakeFiles/cmTC_fecb0.dir/test_mpi.f90.o
+        /usr/bin/f95  -I/usr/include -I/usr/lib -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  -c /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-7Ewrsr/test_mpi.f90 -o CMakeFiles/cmTC_fecb0.dir/test_mpi.f90.o
+        Linking Fortran executable cmTC_fecb0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fecb0.dir/link.txt --verbose=1
+        /usr/bin/f95 -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags  -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  CMakeFiles/cmTC_fecb0.dir/test_mpi.f90.o -o cmTC_fecb0  /usr/lib/libmpi_usempif08.so /usr/lib/libmpi_usempi_ignore_tkr.so /usr/lib/libmpi_mpifh.so /usr/lib/libmpi.so
+        make[1]: Leaving directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-7Ewrsr'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1303 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:8 (find_package)"
+    description: "The MPI test test_mpi for Fortran in mode F90_MODULE"
+    directories:
+      source: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-jv8o07"
+      binary: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-jv8o07"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv"
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+    buildResult:
+      variable: "MPI_RESULT_Fortran_test_mpi_F90_MODULE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-jv8o07'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8280c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8280c.dir/build.make CMakeFiles/cmTC_8280c.dir/build
+        make[1]: Entering directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-jv8o07'
+        Building Fortran object CMakeFiles/cmTC_8280c.dir/test_mpi.f90.o
+        /usr/bin/f95  -I/usr/include -I/usr/lib -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  -c /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-jv8o07/test_mpi.f90 -o CMakeFiles/cmTC_8280c.dir/test_mpi.f90.o
+        Linking Fortran executable cmTC_8280c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8280c.dir/link.txt --verbose=1
+        /usr/bin/f95 -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags  -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  CMakeFiles/cmTC_8280c.dir/test_mpi.f90.o -o cmTC_8280c  /usr/lib/libmpi_usempif08.so /usr/lib/libmpi_usempi_ignore_tkr.so /usr/lib/libmpi_mpifh.so /usr/lib/libmpi.so
+        make[1]: Leaving directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-jv8o07'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1304 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:8 (find_package)"
+    description: "The MPI test test_mpi for Fortran in mode F08_MODULE"
+    directories:
+      source: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-hjMD1z"
+      binary: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-hjMD1z"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv"
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+    buildResult:
+      variable: "MPI_RESULT_Fortran_test_mpi_F08_MODULE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-hjMD1z'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1929c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_1929c.dir/build.make CMakeFiles/cmTC_1929c.dir/build
+        make[1]: Entering directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-hjMD1z'
+        Building Fortran object CMakeFiles/cmTC_1929c.dir/test_mpi.f90.o
+        /usr/bin/f95  -I/usr/include -I/usr/lib -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  -c /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-hjMD1z/test_mpi.f90 -o CMakeFiles/cmTC_1929c.dir/test_mpi.f90.o
+        Linking Fortran executable cmTC_1929c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1929c.dir/link.txt --verbose=1
+        /usr/bin/f95 -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags  -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  CMakeFiles/cmTC_1929c.dir/test_mpi.f90.o -o cmTC_1929c  /usr/lib/libmpi_usempif08.so /usr/lib/libmpi_usempi_ignore_tkr.so /usr/lib/libmpi_mpifh.so /usr/lib/libmpi.so
+        make[1]: Leaving directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-hjMD1z'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1712 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:8 (find_package)"
+    description: "The MPI test mpiver for Fortran in mode F08_MODULE"
+    directories:
+      source: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-nkVHNh"
+      binary: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-nkVHNh"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv"
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+    buildResult:
+      variable: "MPI_RESULT_Fortran_mpiver_F08_MODULE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-nkVHNh'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f1758/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f1758.dir/build.make CMakeFiles/cmTC_f1758.dir/build
+        make[1]: Entering directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-nkVHNh'
+        Building Fortran object CMakeFiles/cmTC_f1758.dir/mpiver.f90.o
+        /usr/bin/f95  -I/usr/include -I/usr/lib -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  -c /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-nkVHNh/mpiver.f90 -o CMakeFiles/cmTC_f1758.dir/mpiver.f90.o
+        Linking Fortran executable cmTC_f1758
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1758.dir/link.txt --verbose=1
+        /usr/bin/f95 -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags  -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  CMakeFiles/cmTC_f1758.dir/mpiver.f90.o -o cmTC_f1758  /usr/lib/libmpi_usempif08.so /usr/lib/libmpi_usempi_ignore_tkr.so /usr/lib/libmpi_mpifh.so /usr/lib/libmpi.so
+        make[1]: Leaving directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-nkVHNh'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1302 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:8 (find_package)"
+    description: "The MPI test test_mpi for Fortran in mode F77_HEADER"
+    directories:
+      source: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-lwJmBs"
+      binary: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-lwJmBs"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv"
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+    buildResult:
+      variable: "MPI_RESULT_Fortran_test_mpi_F77_HEADER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-lwJmBs'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_67887/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_67887.dir/build.make CMakeFiles/cmTC_67887.dir/build
+        make[1]: Entering directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-lwJmBs'
+        Building Fortran object CMakeFiles/cmTC_67887.dir/test_mpi.f90.o
+        /usr/bin/f95  -I/usr/include -I/usr/lib -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  -c /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-lwJmBs/test_mpi.f90 -o CMakeFiles/cmTC_67887.dir/test_mpi.f90.o
+        Linking Fortran executable cmTC_67887
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67887.dir/link.txt --verbose=1
+        /usr/bin/f95 -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags  -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  CMakeFiles/cmTC_67887.dir/test_mpi.f90.o -o cmTC_67887  /usr/lib/libmpi_usempif08.so /usr/lib/libmpi_usempi_ignore_tkr.so /usr/lib/libmpi_mpifh.so /usr/lib/libmpi.so
+        make[1]: Leaving directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-lwJmBs'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1303 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:8 (find_package)"
+    description: "The MPI test test_mpi for Fortran in mode F90_MODULE"
+    directories:
+      source: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-M89PoG"
+      binary: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-M89PoG"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv"
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+    buildResult:
+      variable: "MPI_RESULT_Fortran_test_mpi_F90_MODULE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-M89PoG'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8c3fe/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8c3fe.dir/build.make CMakeFiles/cmTC_8c3fe.dir/build
+        make[1]: Entering directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-M89PoG'
+        Building Fortran object CMakeFiles/cmTC_8c3fe.dir/test_mpi.f90.o
+        /usr/bin/f95  -I/usr/include -I/usr/lib -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  -c /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-M89PoG/test_mpi.f90 -o CMakeFiles/cmTC_8c3fe.dir/test_mpi.f90.o
+        Linking Fortran executable cmTC_8c3fe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c3fe.dir/link.txt --verbose=1
+        /usr/bin/f95 -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags  -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  CMakeFiles/cmTC_8c3fe.dir/test_mpi.f90.o -o cmTC_8c3fe  /usr/lib/libmpi_usempif08.so /usr/lib/libmpi_usempi_ignore_tkr.so /usr/lib/libmpi_mpifh.so /usr/lib/libmpi.so
+        make[1]: Leaving directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-M89PoG'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1304 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1650 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:8 (find_package)"
+    description: "The MPI test test_mpi for Fortran in mode F08_MODULE"
+    directories:
+      source: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-HSiyEp"
+      binary: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-HSiyEp"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv"
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+    buildResult:
+      variable: "MPI_RESULT_Fortran_test_mpi_F08_MODULE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-HSiyEp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8129f/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_8129f.dir/build.make CMakeFiles/cmTC_8129f.dir/build
+        make[1]: Entering directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-HSiyEp'
+        Building Fortran object CMakeFiles/cmTC_8129f.dir/test_mpi.f90.o
+        /usr/bin/f95  -I/usr/include -I/usr/lib -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  -c /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-HSiyEp/test_mpi.f90 -o CMakeFiles/cmTC_8129f.dir/test_mpi.f90.o
+        Linking Fortran executable cmTC_8129f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8129f.dir/link.txt --verbose=1
+        /usr/bin/f95 -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags  -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  CMakeFiles/cmTC_8129f.dir/test_mpi.f90.o -o cmTC_8129f  /usr/lib/libmpi_usempif08.so /usr/lib/libmpi_usempi_ignore_tkr.so /usr/lib/libmpi_mpifh.so /usr/lib/libmpi.so
+        make[1]: Leaving directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-HSiyEp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1283 (try_compile)"
+      - "/usr/share/cmake/Modules/FindMPI.cmake:1712 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:8 (find_package)"
+    description: "The MPI test mpiver for Fortran in mode F08_MODULE"
+    directories:
+      source: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-RM1yRj"
+      binary: "/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-RM1yRj"
+    cmakeVariables:
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_Fortran_FLAGS: " -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv"
+      CMAKE_Fortran_FLAGS_DEBUG: "-g"
+    buildResult:
+      variable: "MPI_RESULT_Fortran_mpiver_F08_MODULE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-RM1yRj'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d7178/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d7178.dir/build.make CMakeFiles/cmTC_d7178.dir/build
+        make[1]: Entering directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-RM1yRj'
+        Building Fortran object CMakeFiles/cmTC_d7178.dir/mpiver.f90.o
+        /usr/bin/f95  -I/usr/include -I/usr/lib -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  -c /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-RM1yRj/mpiver.f90 -o CMakeFiles/cmTC_d7178.dir/mpiver.f90.o
+        Linking Fortran executable cmTC_d7178
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7178.dir/link.txt --verbose=1
+        /usr/bin/f95 -Wl,-rpath -Wl,/usr/lib -Wl,--enable-new-dtags  -DDEBUG_MODE -O3 -g -cpp -DREAL64 -DINT64 -fcheck=all -fbackslash -fwhole-file -pedantic -fimplicit-none -fbacktrace -ffpe-trap=zero,overflow,underflow -march=native -Wline-truncation -Wall -Wcharacter-truncation -ftrapv  CMakeFiles/cmTC_d7178.dir/mpiver.f90.o -o cmTC_d7178  /usr/lib/libmpi_usempif08.so /usr/lib/libmpi_usempi_ignore_tkr.so /usr/lib/libmpi_mpifh.so /usr/lib/libmpi.so
+        make[1]: Leaving directory '/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles/CMakeScratch/TryCompile-RM1yRj'
+        
+      exitCode: 0
+...

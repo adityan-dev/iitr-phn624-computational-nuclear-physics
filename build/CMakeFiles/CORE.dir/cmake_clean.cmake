@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CORE.dir/src/unit-0/factorial.F90.o"
   "CMakeFiles/CORE.dir/src/unit-0/integratioan-1D.F90.o"
   "CMakeFiles/CORE.dir/src/unit-1/harmonic-oscillator.F90.o"
+  "CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.o"
   "CMakeFiles/CORE.dir/src/unit-1/polynomials.F90.o"
   "CMakeFiles/CORE.dir/src/utils/assert.F90.o"
   "CMakeFiles/CORE.dir/src/utils/constants.F90.o"

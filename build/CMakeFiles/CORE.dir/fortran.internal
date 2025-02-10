@@ -5,6 +5,7 @@ provides
  m_double_factorial.mod
  m_factorial.mod
  m_harmonic_oscillator.mod
+ m_hydrogen_atom.mod
  m_integration_1d.mod
  m_kinds.mod
  m_polynomials.mod

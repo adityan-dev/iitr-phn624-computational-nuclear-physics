@@ -20,6 +20,10 @@ FILE(REMOVE
   "M_HARMONIC_OSCILLATOR.mod"
   "CMakeFiles/CORE.dir/m_harmonic_oscillator.mod.stamp"
 
+  "m_hydrogen_atom.mod"
+  "M_HYDROGEN_ATOM.mod"
+  "CMakeFiles/CORE.dir/m_hydrogen_atom.mod.stamp"
+
   "m_integration_1d.mod"
   "M_INTEGRATION_1D.mod"
   "CMakeFiles/CORE.dir/m_integration_1d.mod.stamp"

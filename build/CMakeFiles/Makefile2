@@ -76,6 +76,10 @@ all: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-
 all: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/all
 all: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/all
 all: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/all
+all: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir/all
+all: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir/all
+all: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir/all
+all: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -92,6 +96,10 @@ codegen: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computatio
 codegen: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/codegen
 codegen: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/codegen
 codegen: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/codegen
+codegen: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir/codegen
+codegen: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir/codegen
+codegen: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir/codegen
+codegen: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -112,6 +120,10 @@ clean: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computationa
 clean: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/clean
 clean: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/clean
 clean: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/clean
+clean: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir/clean
+clean: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir/clean
+clean: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir/clean
+clean: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -121,12 +133,12 @@ clean: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computationa
 CMakeFiles/CORE.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CORE.dir/build.make CMakeFiles/CORE.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CORE.dir/build.make CMakeFiles/CORE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target CORE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target CORE"
 .PHONY : CMakeFiles/CORE.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CORE.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CORE.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 0
 .PHONY : CMakeFiles/CORE.dir/rule
@@ -138,7 +150,7 @@ CORE: CMakeFiles/CORE.dir/rule
 # codegen rule for target.
 CMakeFiles/CORE.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CORE.dir/build.make CMakeFiles/CORE.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Finished codegen for target CORE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Finished codegen for target CORE"
 .PHONY : CMakeFiles/CORE.dir/codegen
 
 # clean rule for target.
@@ -153,12 +165,12 @@ CMakeFiles/CORE.dir/clean:
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.1-factorial_out.dir/all: CMakeFiles/CORE.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.1-factorial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.1-factorial_out.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.1-factorial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.1-factorial_out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=10,11 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.1-factorial_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=11,12 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.1-factorial_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.1-factorial_out.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.1-factorial_out.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.1-factorial_out.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 0
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.1-factorial_out.dir/rule
@@ -170,7 +182,7 @@ _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_
 # codegen rule for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.1-factorial_out.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.1-factorial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.1-factorial_out.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=10,11 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.1-factorial_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=11,12 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.1-factorial_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.1-factorial_out.dir/codegen
 
 # clean rule for target.
@@ -185,12 +197,12 @@ CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nucle
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.2-double-factorial_out.dir/all: CMakeFiles/CORE.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.2-double-factorial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.2-double-factorial_out.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.2-double-factorial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.2-double-factorial_out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=12,13 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.2-double-factorial_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=13,14 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.2-double-factorial_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.2-double-factorial_out.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.2-double-factorial_out.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.2-double-factorial_out.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 0
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.2-double-factorial_out.dir/rule
@@ -202,7 +214,7 @@ _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_
 # codegen rule for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.2-double-factorial_out.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.2-double-factorial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.2-double-factorial_out.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=12,13 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.2-double-factorial_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=13,14 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.2-double-factorial_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_1.2-double-factorial_out.dir/codegen
 
 # clean rule for target.
@@ -217,12 +229,12 @@ CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nucle
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_2-sum-of-squares_out.dir/all: CMakeFiles/CORE.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_2-sum-of-squares_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_2-sum-of-squares_out.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_2-sum-of-squares_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_2-sum-of-squares_out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=14,15 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_2-sum-of-squares_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=15,16 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_2-sum-of-squares_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_2-sum-of-squares_out.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_2-sum-of-squares_out.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_2-sum-of-squares_out.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 0
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_2-sum-of-squares_out.dir/rule
@@ -234,7 +246,7 @@ _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_
 # codegen rule for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_2-sum-of-squares_out.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_2-sum-of-squares_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_2-sum-of-squares_out.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=14,15 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_2-sum-of-squares_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=15,16 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_2-sum-of-squares_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_2-sum-of-squares_out.dir/codegen
 
 # clean rule for target.
@@ -249,12 +261,12 @@ CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nucle
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_3-quadruple-magnetic-moment_out.dir/all: CMakeFiles/CORE.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_3-quadruple-magnetic-moment_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_3-quadruple-magnetic-moment_out.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_3-quadruple-magnetic-moment_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_3-quadruple-magnetic-moment_out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=16,17 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_3-quadruple-magnetic-moment_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=17,18 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_3-quadruple-magnetic-moment_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_3-quadruple-magnetic-moment_out.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_3-quadruple-magnetic-moment_out.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_3-quadruple-magnetic-moment_out.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 0
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_3-quadruple-magnetic-moment_out.dir/rule
@@ -266,7 +278,7 @@ _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_
 # codegen rule for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_3-quadruple-magnetic-moment_out.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_3-quadruple-magnetic-moment_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_3-quadruple-magnetic-moment_out.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=16,17 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_3-quadruple-magnetic-moment_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=17,18 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_3-quadruple-magnetic-moment_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_3-quadruple-magnetic-moment_out.dir/codegen
 
 # clean rule for target.
@@ -281,12 +293,12 @@ CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nucle
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_4-occilator-length-parameter_out.dir/all: CMakeFiles/CORE.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_4-occilator-length-parameter_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_4-occilator-length-parameter_out.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_4-occilator-length-parameter_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_4-occilator-length-parameter_out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=18,19 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_4-occilator-length-parameter_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=19,20 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_4-occilator-length-parameter_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_4-occilator-length-parameter_out.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_4-occilator-length-parameter_out.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_4-occilator-length-parameter_out.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 0
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_4-occilator-length-parameter_out.dir/rule
@@ -298,7 +310,7 @@ _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_
 # codegen rule for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_4-occilator-length-parameter_out.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_4-occilator-length-parameter_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_4-occilator-length-parameter_out.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=18,19 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_4-occilator-length-parameter_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=19,20 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_4-occilator-length-parameter_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_4-occilator-length-parameter_out.dir/codegen
 
 # clean rule for target.
@@ -313,12 +325,12 @@ CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nucle
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_5-woods-saxon-potential_out.dir/all: CMakeFiles/CORE.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_5-woods-saxon-potential_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_5-woods-saxon-potential_out.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_5-woods-saxon-potential_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_5-woods-saxon-potential_out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=20,21 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_5-woods-saxon-potential_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=21,22 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_5-woods-saxon-potential_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_5-woods-saxon-potential_out.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_5-woods-saxon-potential_out.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_5-woods-saxon-potential_out.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 0
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_5-woods-saxon-potential_out.dir/rule
@@ -330,7 +342,7 @@ _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_
 # codegen rule for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_5-woods-saxon-potential_out.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_5-woods-saxon-potential_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_5-woods-saxon-potential_out.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=20,21 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_5-woods-saxon-potential_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=21,22 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_5-woods-saxon-potential_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_5-woods-saxon-potential_out.dir/codegen
 
 # clean rule for target.
@@ -345,12 +357,12 @@ CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nucle
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_6-numerical-integration_out.dir/all: CMakeFiles/CORE.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_6-numerical-integration_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_6-numerical-integration_out.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_6-numerical-integration_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_6-numerical-integration_out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=22,23 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_6-numerical-integration_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=23,24 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_6-numerical-integration_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_6-numerical-integration_out.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_6-numerical-integration_out.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_6-numerical-integration_out.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 0
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_6-numerical-integration_out.dir/rule
@@ -362,7 +374,7 @@ _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_
 # codegen rule for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_6-numerical-integration_out.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_6-numerical-integration_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_6-numerical-integration_out.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=22,23 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_6-numerical-integration_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=23,24 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_6-numerical-integration_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-A_6-numerical-integration_out.dir/codegen
 
 # clean rule for target.
@@ -377,12 +389,12 @@ CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nucle
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out.dir/all: CMakeFiles/CORE.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=24,25 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=25,26 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 0
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out.dir/rule
@@ -394,7 +406,7 @@ _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_
 # codegen rule for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=24,25 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=25,26 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_1-hermite-polynomial_out.dir/codegen
 
 # clean rule for target.
@@ -409,12 +421,12 @@ CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nucle
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out.dir/all: CMakeFiles/CORE.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=26,27 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=27,28 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 0
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out.dir/rule
@@ -426,7 +438,7 @@ _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_
 # codegen rule for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=26,27 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=27,28 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_2-harmonic-occilator-wavefunc_out.dir/codegen
 
 # clean rule for target.
@@ -441,12 +453,12 @@ CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nucle
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/all: CMakeFiles/CORE.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=28,29 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=29,30 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 0
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/rule
@@ -458,7 +470,7 @@ _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_
 # codegen rule for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=28,29 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=29,30 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_3-harmonic-oscillator-matrix_out.dir/codegen
 
 # clean rule for target.
@@ -473,12 +485,12 @@ CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nucle
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/all: CMakeFiles/CORE.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=30,31 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=31,32 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 0
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/rule
@@ -490,7 +502,7 @@ _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_
 # codegen rule for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=30,31 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=31,32 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.1-legendre-polynomial_out.dir/codegen
 
 # clean rule for target.
@@ -505,12 +517,12 @@ CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nucle
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/all: CMakeFiles/CORE.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=32,33 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=33,34 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 0
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/rule
@@ -522,13 +534,141 @@ _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_
 # codegen rule for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=32,33 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=33,34 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out"
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/codegen
 
 # clean rule for target.
 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/clean
 .PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_4.2-associated-legendre-polynomial_out.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir
+
+# All Build rule for target.
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir/all: CMakeFiles/CORE.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=35,36 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out"
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 0
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir/rule
+
+# Convenience name for target.
+_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir/rule
+.PHONY : _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out
+
+# codegen rule for target.
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=35,36 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out"
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir/codegen
+
+# clean rule for target.
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir/clean
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_5-spherical-harmonics_out.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir
+
+# All Build rule for target.
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir/all: CMakeFiles/CORE.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=37,38 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out"
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 0
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir/rule
+
+# Convenience name for target.
+_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir/rule
+.PHONY : _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out
+
+# codegen rule for target.
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=37,38 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out"
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir/codegen
+
+# clean rule for target.
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir/clean
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.1-laguerre-polynomial_out.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir
+
+# All Build rule for target.
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir/all: CMakeFiles/CORE.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=39,40 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out"
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 0
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir/rule
+
+# Convenience name for target.
+_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir/rule
+.PHONY : _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out
+
+# codegen rule for target.
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=39,40 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out"
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir/codegen
+
+# clean rule for target.
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir/clean
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_6.2-associated-laguerre-polynomial_out.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir
+
+# All Build rule for target.
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir/all: CMakeFiles/CORE.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=41,42 "Built target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out"
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles 0
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir/rule
+
+# Convenience name for target.
+_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out: CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir/rule
+.PHONY : _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out
+
+# codegen rule for target.
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adi/workspace-directory/courses/iitr-phn624-computational-nuclear-physics/build/CMakeFiles --progress-num=41,42 "Finished codegen for target _home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out"
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir/codegen
+
+# clean rule for target.
+CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir/build.make CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir/clean
+.PHONY : CMakeFiles/_home_adi_workspace-directory_courses_iitr-phn624-computational-nuclear-physics_basic_tutorial-1-part-B_7-hydrogen-atom-wave-function_out.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -35,7 +35,19 @@ CMakeFiles/CORE.dir/m_harmonic_oscillator.mod.stamp: CMakeFiles/CORE.dir/src/uni
 CMakeFiles/CORE.dir/src/unit-1/harmonic-oscillator.F90.o.provides.build:
 	$(CMAKE_COMMAND) -E touch CMakeFiles/CORE.dir/src/unit-1/harmonic-oscillator.F90.o.provides.build
 CMakeFiles/CORE.dir/build: CMakeFiles/CORE.dir/src/unit-1/harmonic-oscillator.F90.o.provides.build
+CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.o: CMakeFiles/CORE.dir/m_assert.mod.stamp
+CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.o: CMakeFiles/CORE.dir/m_constants.mod.stamp
+CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.o: CMakeFiles/CORE.dir/m_factorial.mod.stamp
+CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.o: CMakeFiles/CORE.dir/m_kinds.mod.stamp
+CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.o: CMakeFiles/CORE.dir/m_polynomials.mod.stamp
+CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.o.provides.build: CMakeFiles/CORE.dir/m_hydrogen_atom.mod.stamp
+CMakeFiles/CORE.dir/m_hydrogen_atom.mod.stamp: CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.o
+	$(CMAKE_COMMAND) -E cmake_copy_f90_mod m_hydrogen_atom.mod CMakeFiles/CORE.dir/m_hydrogen_atom.mod.stamp GNU
+CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.o.provides.build:
+	$(CMAKE_COMMAND) -E touch CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.o.provides.build
+CMakeFiles/CORE.dir/build: CMakeFiles/CORE.dir/src/unit-1/hydrogen-atom.F90.o.provides.build
 CMakeFiles/CORE.dir/src/unit-1/polynomials.F90.o: CMakeFiles/CORE.dir/m_assert.mod.stamp
+CMakeFiles/CORE.dir/src/unit-1/polynomials.F90.o: CMakeFiles/CORE.dir/m_double_factorial.mod.stamp
 CMakeFiles/CORE.dir/src/unit-1/polynomials.F90.o: CMakeFiles/CORE.dir/m_factorial.mod.stamp
 CMakeFiles/CORE.dir/src/unit-1/polynomials.F90.o: CMakeFiles/CORE.dir/m_kinds.mod.stamp
 CMakeFiles/CORE.dir/src/unit-1/polynomials.F90.o.provides.build: CMakeFiles/CORE.dir/m_polynomials.mod.stamp

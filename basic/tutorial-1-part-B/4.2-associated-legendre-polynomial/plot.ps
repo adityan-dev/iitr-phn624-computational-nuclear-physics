@@ -1,7 +1,11 @@
-set title "Legendre Polynomials"
+set title "Associated Legendre Polynomials"
 set xlabel 'x'
-set ylabel 'P(n,x)'
+set ylabel 'P(l,m,x)'
 set yrange [-1:1.2]
 set xrange [-1:1]
 set key outside
-plot for [col=2:7] "legendre.dat" u 1:col with lines title sprintf("P(%d,x)", col - 2)
+set terminal pngcairo size 800,600
+do for [file=0:5] {
+    set output sprintf("plot/legendre_l_%d.png", file)
+    plot for [col=2:2*file+2] sprintf("data/legendre_l_%d.dat", file) u 1:col with lines title sprintf("P(%d,%d,x)", file, col - file - 2)
+}
